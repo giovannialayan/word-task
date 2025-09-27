@@ -11,12 +11,12 @@ function NavBar({ current, currentString, onChangeTool }: Props) {
     <div className='navContainer'>
       <h2>dokapon companion</h2>
       <div className='navButtons'>
-        <button onClick={() => onChangeTool(0, 'job counter')} className={'navButton' + (current == 0 ? ' navSelected' : '')}>
+        {/* <button onClick={() => onChangeTool(0, 'job counter')} className={'navButton' + (current == 0 ? ' navSelected' : '')}>
           job counter
         </button>
         <button onClick={() => onChangeTool(1, 'xp counter')} className={'navButton' + (current == 1 ? ' navSelected' : '')}>
           xp counter
-        </button>
+        </button> */}
         <button onClick={() => onChangeTool(2, 'battle calculator')} className={'navButton' + (current == 2 ? ' navSelected' : '')}>
           battle calculator
         </button>

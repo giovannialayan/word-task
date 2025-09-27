@@ -347,7 +347,7 @@ function StatsInput({
           ></input>
         </div>
         <div className='inputLabelcontainer'>
-          <p>offense magic</p>
+          <p>Offensive magic</p>
           <input
             type='text'
             value={offenseMagic}
@@ -357,7 +357,7 @@ function StatsInput({
           ></input>
         </div>
         <div className='inputLabelcontainer'>
-          <p>offense magic</p>
+          <p>Defensive magic</p>
           <input
             type='text'
             value={defenseMagic}
@@ -367,7 +367,7 @@ function StatsInput({
           ></input>
         </div>
         <div className='inputLabelContainer'>
-          <p>proficient weapon: </p>
+          <p>Proficient weapon: </p>
           <input
             type='checkbox'
             checked={proficiency}

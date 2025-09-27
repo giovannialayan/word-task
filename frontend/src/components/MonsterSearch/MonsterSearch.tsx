@@ -76,7 +76,7 @@ function MonsterSearch({ hide }: Props) {
     if (res.ok) {
       const newMonster = await res.json();
 
-      newMonster.gold.replace('W', ' multiplied by current week');
+      newMonster.gold = newMonster.gold.replace('W', ' multiplied by current week');
 
       setMonsterName(newMonster.name);
       setMonster(newMonster);
