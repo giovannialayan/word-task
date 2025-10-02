@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Response, status
 from fastapi.staticfiles import StaticFiles
-from itemDict import items, weapons, shields, fieldMagics, offensiveMagics, defensiveMagics, monsters
+from itemDict import items, weapons, shields, fieldMagics, offensiveMagics, defensiveMagics, monsters, accessories
 
 app = FastAPI(title="page")
 app_api = FastAPI(title="api")
@@ -17,6 +17,8 @@ async def get_item(itemName: str, response: Response):
         return weapons[itemName]
     elif (itemName in shields):
         return shields[itemName]
+    elif (itemName in accessories):
+        return accessories[itemName]
     elif (itemName in offensiveMagics):
         return offensiveMagics[itemName]
     elif (itemName in defensiveMagics):

@@ -1442,6 +1442,372 @@ shields = {
   }
 }
 
+accessories = {
+  "powergloves": {
+    "name": "Power Gloves",
+    "sellPrice": "30,000G",
+    "at": "5",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "",
+    "locations": "Hobgoblin"
+  },
+  "guardgloves": {
+    "name": "Guard Gloves",
+    "sellPrice": "30,000G",
+    "at": "",
+    "df": "5",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "",
+    "locations": "Kobold King"
+  },
+  "spiritgloves": {
+    "name": "Spirit Gloves",
+    "sellPrice": "30,000G",
+    "at": "",
+    "df": "",
+    "mg": "5",
+    "sp": "",
+    "hp": "",
+    "effect": "",
+    "locations": "Magician, Banshee"
+  },
+  "speedgloves": {
+    "name": "Speed Gloves",
+    "sellPrice": "30,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "5",
+    "hp": "",
+    "effect": "",
+    "locations": "Halfling"
+  },
+  "vitalgloves": {
+    "name": "Vital Gloves",
+    "sellPrice": "30,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "20",
+    "effect": "",
+    "locations": "Casino Cave (Red Loot Space)"
+  },
+  "warmgloves": {
+    "name": "Warm Gloves",
+    "sellPrice": "3,000G",
+    "at": "",
+    "df": "1",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Prevents Paralysis from snow spaces.",
+    "locations": "Bandit, Troll"
+  },
+  "airring": {
+    "name": "Air Ring",
+    "sellPrice": "2,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "10",
+    "effect": "Negates damage from being underwater.",
+    "locations": "Sea Serpent, Daunting Mountain 3F (White Loot Space)"
+  },
+  "ringofpower": {
+    "name": "Ring of Power",
+    "sellPrice": "50,000G",
+    "at": "15",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "",
+    "locations": "Sunken Shrine"
+  },
+  "ringofdefense": {
+    "name": "Ring of Defense",
+    "sellPrice": "50,000G",
+    "at": "",
+    "df": "15",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "",
+    "locations": "Clovis (Red Loot Space), Tower of Rabble (Locked Box Space)"
+  },
+  "ringofspeed": {
+    "name": "Ring of Speed",
+    "sellPrice": "50,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "15",
+    "hp": "",
+    "effect": "",
+    "locations": "Ninja, Daunting Mountain 1F (Locked Box Space)"
+  },
+  "ringofmagic": {
+    "name": "Ring of Magic",
+    "sellPrice": "50,000G",
+    "at": "",
+    "df": "",
+    "mg": "15",
+    "sp": "",
+    "hp": "",
+    "effect": "",
+    "locations": "Wizard, Lava Cave 3F (Locked Box Space)"
+  },
+  "dokaponring": {
+    "name": "Dokapon Ring",
+    "sellPrice": "500,000G",
+    "at": "15",
+    "df": "15",
+    "mg": "15",
+    "sp": "15",
+    "hp": "",
+    "effect": "",
+    "locations": "4 Spinner, Flinders (Red Loot Space)"
+  },
+  "squidring": {
+    "name": "Squid Ring",
+    "sellPrice": "555G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Has a 1/3 chance to block negative space effects.",
+    "locations": "Squilla, Daunting Mountain 3F (White Loot Space), Castle in the Clouds"
+  },
+  "angelring": {
+    "name": "Angel Ring",
+    "sellPrice": "150,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "50",
+    "effect": "It can block negative space effects. ",
+    "locations": "Kraken, Unseelie"
+  },
+  "firebracelet": {
+    "name": "Fire Bracelet",
+    "sellPrice": "12,000G",
+    "at": "",
+    "df": "",
+    "mg": "3",
+    "sp": "",
+    "hp": "",
+    "effect": "Reduces damage the user takes from Magma, Magma+, and Magma DX by 50%.",
+    "locations": "Heckhound, Lava Cave 2F (Locked Box Space)"
+  },
+  "icebracelet": {
+    "name": "Ice Bracelet",
+    "sellPrice": "12,000G",
+    "at": "",
+    "df": "",
+    "mg": "3",
+    "sp": "",
+    "hp": "",
+    "effect": "Reduces damage the user takes from Ice, Ice+, and Ice DX by 50%.",
+    "locations": "Fenrir, Sunken Shrine (White Loot Space)"
+  },
+  "elecbracelet": {
+    "name": "Elec Bracelet",
+    "sellPrice": "12,000G",
+    "at": "",
+    "df": "",
+    "mg": "3",
+    "sp": "",
+    "hp": "",
+    "effect": "Reduces damage the user takes from Volt, Volt+, and Volt DX by 50%.",
+    "locations": "Wisp"
+  },
+  "windbracelet": {
+    "name": "Wind Bracelet",
+    "sellPrice": "12,000G",
+    "at": "",
+    "df": "",
+    "mg": "3",
+    "sp": "",
+    "hp": "",
+    "effect": "Reduces damage from wind field magic by half, and blocks the effect of Squall and Typhoon. ",
+    "locations": "Sylph"
+  },
+  "crystalchoker": {
+    "name": "Crystal Choker",
+    "sellPrice": "80,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Randomly activates a Multi Crystal at the start of the user's turn.",
+    "locations": "Asiana (Red Loot Space), Casino Cave"
+  },
+  "mirrornecklace": {
+    "name": "Mirror Necklace",
+    "sellPrice": "150,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Randomly negates field magic targeting the user.",
+    "locations": "Lich"
+  },
+  "dodgenecklace": {
+    "name": "Dodge Necklace",
+    "sellPrice": "100,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Randomly negates traps the user steps on.",
+    "locations": "Medusa"
+  },
+  "angelchoker": {
+    "name": "Angel Choker",
+    "sellPrice": "300,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "33% chance to revive the user upon death.",
+    "locations": "Sphynx"
+  },
+  "galoshes": {
+    "name": "Galoshes",
+    "sellPrice": "1,500G",
+    "at": "",
+    "df": "1",
+    "mg": "",
+    "sp": "1",
+    "hp": "",
+    "effect": "Negates the effect of poison swamp spaces.",
+    "locations": "Troll, Giant"
+  },
+  "heartslippers": {
+    "name": "Heart Slippers",
+    "sellPrice": "120,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "3",
+    "hp": "",
+    "effect": "Heals the user by 1 HP every space traveled.",
+    "locations": "Spring Cave, Castle in the Clouds, Daunting Mountain 2F (White Loot Space), Pyramid (White Loot Space)"
+  },
+  "heroboots": {
+    "name": "Hero Boots",
+    "sellPrice": "150,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "3",
+    "hp": "",
+    "effect": "Increases the user's EXP by 10 every space traveled.",
+    "locations": "Castle in the Clouds, Daunting Mountain (White Loot Space)"
+  },
+  "goldshoes": {
+    "name": "Gold Shoes",
+    "sellPrice": "150,000G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "3",
+    "hp": "",
+    "effect": "Increases the user's G every space traveled.",
+    "locations": "Casino Cave"
+  },
+  "leopardbandana": {
+    "name": "Leopard Bandana",
+    "sellPrice": "60,000G",
+    "at": "",
+    "df": "",
+    "mg": "3",
+    "sp": "",
+    "hp": "",
+    "effect": "Increases G gained when defeating monsters.",
+    "locations": "Wear Tiger, Sunken Shrine (White Loot Space)"
+  },
+  "zebrabandana": {
+    "name": "Zebra Bandana",
+    "sellPrice": "60,000G",
+    "at": "",
+    "df": "",
+    "mg": "3",
+    "sp": "",
+    "hp": "",
+    "effect": "Increases item drop rate when defeating monsters.",
+    "locations": "Minotaur, Sunken Shrine (White Loot Space)"
+  },
+  "niceguybadge": {
+    "name": "Nice Guy Badge",
+    "sellPrice": "110G",
+    "at": "3",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Decreases the duration of being Wanted from 7 days to 4 days.",
+    "locations": "Underground Passage"
+  },
+  "wallacebadge": {
+    "name": "Wallace Badge",
+    "sellPrice": "1G",
+    "at": "",
+    "df": "",
+    "mg": "",
+    "sp": "",
+    "hp": "",
+    "effect": "Occasionally duplicates a random Item or Field Magic in the user's inventory.",
+    "locations": "Wallace"
+  },
+  "criminalstuds": {
+    "name": "Criminal Studs",
+    "sellPrice": "666G",
+    "at": "30",
+    "df": "30",
+    "mg": "30",
+    "sp": "30",
+    "hp": "300",
+    "effect": "Only gives stats while user has the Wanted status.",
+    "locations": "Robo-Sassin"
+  },
+  "dokaponcrown": {
+    "name": "Dokapon Crown",
+    "sellPrice": "3,000,000G",
+    "at": "50",
+    "df": "50",
+    "mg": "50",
+    "sp": "50",
+    "hp": "500",
+    "effect": "",
+    "locations": "Underworld (Red Loot Space, Locked Box Space)"
+  },
+  "overlordscrown": {
+    "name": "Overlord's Crown",
+    "sellPrice": "1,000,000G",
+    "at": "300",
+    "df": "250",
+    "mg": "200",
+    "sp": "150",
+    "hp": "",
+    "effect": "Summons a monster when the user lands on an opposing player's Town.",
+    "locations": "Darkling"
+  }
+}
+
 fieldMagics = {
   "magma": {
     "name": "Magma",
