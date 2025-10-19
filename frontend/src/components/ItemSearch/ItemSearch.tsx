@@ -76,6 +76,24 @@ function ItemSearch({ hide }: Props) {
         newItem.sellPrice = (+newItem.price.substring(0, newItem.price.length - 1).replace(',', '') / 2).toLocaleString('en-US') + 'G';
       }
 
+      if (newItem.at != '' || newItem.df != '' || newItem.mg != '' || newItem.sp != '' || newItem.hp != '') {
+        if (newItem.at == '') {
+          newItem.at = '0';
+        }
+        if (newItem.df == '') {
+          newItem.df = '0';
+        }
+        if (newItem.mg == '') {
+          newItem.mg = '0';
+        }
+        if (newItem.sp == '') {
+          newItem.sp = '0';
+        }
+        if (newItem.hp == '') {
+          newItem.hp = '0';
+        }
+      }
+
       setItemName(newItem.name);
       setItem(newItem);
     }

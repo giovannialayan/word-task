@@ -116,6 +116,7 @@ function MonsterSearch({ hide }: Props) {
           <div>
             <div>
               <p>Attack: {monster.aiAttack}</p>
+              <p>Strike: {monster.aiStrike}</p>
               <p>Battle skill: {monster.aiSkill}</p>
               <p>Offensive magic: {monster.aiOffMagic}</p>
             </div>
